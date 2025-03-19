@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Text URL Extension",
+  "version": "1.0",
+  "description": "Makes a large block of text accessible via a chrome-extension:// URL.",
+  "permissions": [],
+  "web_accessible_resources": [{
+    "resources": ["text.html"],
+    "matches": ["<all_urls>"]
+  }],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
